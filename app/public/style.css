@@ -1,0 +1,23 @@
+*{
+    background-repeat: none;
+    font-style: oblique;
+
+}
+th{
+    padding:10px;
+}
+table, th, td {
+    border: 1px solid black;
+ }
+ table {
+    border-collapse: collapse;
+}
+p{
+    border-style: dotted;
+    border-width: 2px;
+}
+#big{
+    color:blue;
+    font-size:60px;
+    padding-left:180px;
+}
