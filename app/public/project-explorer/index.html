@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="uf-8">
-        <title> Home Page </title>
-        <h1> <b> Project Explorer </b> </h1>
-        <link rel="stylesheet"  href="css/style.css"> 
-    </head>
-    <body>
-        <h3> <b> One Stop Database for Final Year Projects  </b> </h3>
-        <a href=" index.html" target="_blank"> Home</a>
-        <a href="projects.html" target="_blank"> Projects</a>
-        <a href=" login.html" target="_blank"> Login</a>
-        <a href=" register.html" target="_blank"> Register</a>
-<navbar>
+
+<head>
+    <title>
+        Welcome
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+
+<body>
+
+        <nav class="header-footer">
+            <div class="left-nav">
+               <a href="index.html">Project Explorer</a> 
+                 <input type="text" placeholder="Search Projects" id="search_term" class="nav-text" />
+                <button class="nav-text nav-btn">Search</button>
+                <a href="search.html" style="text-decoration: none" class="nav-text nav-text-color">Project</a>
+                <a href="createProject.html" style="text-decoration: none" class="nav-text nav-text-color">Submit</a>
+            </div>
     
-</navbar> <h3> <b>Welcome to Project Explorer </b></h3>
- <p> Project Explorer is a repository for final year projects across all departments at your institution. you can upload and search projects and learn from others.</p>
- <button>Get Started</button>
- <button>Login</button>
- <div class="call-outs-container">
-    <div class="call-out">
-      <h4>Feature 1</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam placeat numquam omnis sit consectetur.</p>
-    </div>
-  
-    <div class="call-out">
-      <h4>Feature 2</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt placeat numquam omnis.</p>
-    </div>
-  
-    <div class="call-out">
-      <h4>Feature 3</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit.</p>
-    </div>
-  </div>
+            <div class="right-nav">
+                <a href="register.html" style="text-decoration: none" class="nav-text nav-text-color">Sign Up</a>
+                <a href="login.html" style="text-decoration: none" class="nav-text nav-text-color">Login</a>
+            </div>
+        </nav>
+
+    <main>
+        <div class="container">
+            <div class="Intro">
+                <h2>Welcome To Project Explorer</h2>
+                <p>Project Explorer is a repository for final year projects across all
+                    departments at your institution. You can submit your project and search projects<br>
+                    submitted by others to learn from</p>
+                <a href="register.html"> <input type="button" value="Get started" class="button1"></a>
+                <a href="login.html"><input type="button" value="Login" class="button2"></a>
+            </div>
+        </div>
+
+        <div class="Project-Info">
+            <div cLass="project">
+                <h3 class="title">Project 1</h3>
+                <p>Author 1, Author2</p>
+                <p>the desription of the project should be displayed here</p>
+                <a href="#">#yaml,</a>
+                <a href="#">#ejs</a>
+            </div>
+
+            <div class="project">
+                <h3 cLass="title">Project 2</h3>
+                <p>Author 1, Author2</p>
+                <p>the desription of the project should be displayed here</p>
+                <a href="#">#css,</a>
+                <a href="#">#html</a>
+            </div>
+
+            <div class="project">
+                <h3 cLass="title">Project 3</h3>
+                <p>Author 1, Author2</p>
+                <p>the desription of the project should be displayed here</p>
+                <a href="#">#ejs,</a>
+                <a href="#">#ci</a>
+            </div>
+
+            <div class="project">
+                <h3 cLass="title">Project 4</h3>
+                <p>Author 1, Author2</p>
+                <p>the desription of the project should be displayed here</p>
+                <a href="#">#javascript,</a>
+                <a href="#">#mongodb</a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            Project Explorer © 2020<b><sup> .</sup></b><b>Edconnect</b>
+        </div>
+
+    </footer>
+
 </body>
-    </html>
+
+</html>

@@ -3,7 +3,7 @@
 
 <head>
     <title>
-        Log In
+        Create Project
     </title>
     <link rel="stylesheet" type="text/css" href="css/style.css" >
 </head>
@@ -26,19 +26,25 @@
     </nav>
 
     <main>
-
+            
         <div class="container6">
+
             <form class="formContainer">
-                <h2>Login</h2>
-                <div class="row">
-                    <label for="email"><b>Email Address</b></label><br>
-                    <input type="email" placeholder ="Enter Email" name="email">
-                </div><br>
-                <div class="row">
-                    <label for="pword"><b>Password</b></label><br>
-                    <input type="password" placeholder ="Password" name="pword">
-                </div><br>
-                <input type="submit" value="Login" class="button1">
+                <h2>Submit Project</h2>
+                <label for="ptitle">Project Name</label><br>
+                <input type="text" placeholder="Enter Project Name" name="ptitle"><br><br>
+
+                <label for=abstract>Project Abstract</label><br>
+                <textarea name="abstract"></textarea><br><br>
+
+                <label for="author">Author(s)</label><br>
+                <input type="text" placeholder="Enter authors name (seperated by comma)" name="author"><br><br>
+
+                <label for="tag">Tag(s)</label><br>
+                <input type="text" placeholder="Use it to tag project with different topics (e.g. #javascript #mangodb)"
+                    name="tag"><br><br>
+
+                <input type="submit" value="Continue" class="button1">
             </form>
 
         </div>
