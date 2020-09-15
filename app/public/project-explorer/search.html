@@ -1,44 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="uf-8">
-        <title> Home Page </title>
-        <h1> <b> Project Explorer </b> </h1>
-    </head>
-    <body>
-        <h3> <b> One Stop Database for Final Year Projects  </b> </h3>
-        <a href=" index.html" target="_blank"> Home</a>
-        <a href="search.html" target="_blank"> Projects</a>
-        <a href="createProject.html" target="_blank"> Submit</a>
-        <a href=" login.html" target="_blank"> Login</a>
-        <a href=" register.html" target="_blank"> Register</a>
-        
-        <br> <h3> <b>Search Projects By</b></h3>
-     Project Name, Authors, Abstract, Tags: <br>
-     <form >   
-     <input type="info" name="searchTerm" > <br>
-        <br> Name: <br>
-         <select name="authorName" id="name"> <br>
-            <br><option value="bukola_whitherspoon ">Bukola Whitherspoon </option>
-<br><option value="okonji_ebubechukwu"> Okonji Ebubechukwu </option>
-<br><option value="jane_doe"> Jane Doe</option>
-<br><option value="dorathy_eke">Dorathy Eke </option>
-<br><option value="maria_josh"> Maria Josh</option>
-<br><option value="mags_petterson"> Mags Petterson</option> 
-</select>
-</form>
-<br>
-
-<br><input type="Submit"  value="Submit"><br>
- <h3> <b>Search Result</b></h3>
-
-<h4> <b> Project 2</b></h4>
-<ul> 
-    <li> Name: Project 2 </li>
-    <li> Abstract: Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illo provident quisquam vero perferendis, in nesciunt esse deserunt, exercitationem, vel dolorum voluptas. Autem veniam, doloremque dolor temporibus quis aspernatur similique. </li>
-   <li>Program : Computer Science</li>
-    <li> Authors:Bukola Whitherspoon, Jamie Notting  </li>
-    <li> Tags:#java, #xml</li>
-    </ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <header>
+        <h1>Project Explorer</h1>
+        <h2>One Stop Database for Final Year Projects</h2>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Projects</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+    <div>
+        <h2>Search Project by</h2>
+        <form>
+            <label for="project-title">Project Title: </label><br>
+            <input type="text" name="title" id="title"><br><br>
+            <label for="project-abstract">Project Abstract: </label><br>
+            <input type="text" name="abstract" id="abstract"><br><br>
+            <label for="authors">Authors: </label><br>
+            <input type="text" name="authors" id="authors"><br><br>
+            <label for="tags">Tag(s): </label><br>
+            <input type="text" name="tags" id="tags"><br><br>
+            <input type="submit" value="Search">
+        </form>
+        <h2>Search Result</h2>
+        <h3>Project 4</h3>
+        <ul>
+            <li>Name: Project 4</li>
+            <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Program: Computer Science</li>
+            <li>Authors: Ade Ade, Brian James</li>
+            <li>Tags: #yaml, #ejs</li>
+        </ul>
+    </div>
 </body>
-    </html>
+</html>
