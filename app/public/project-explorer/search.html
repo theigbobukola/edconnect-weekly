@@ -12,21 +12,21 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="#">Projects</a>
+        <a href="search.html">Projects</a>
+        <a href="createProject.html">Submit</a>
         <a href="login.html">Login</a>
         <a href="register.html">Register</a>
     </nav>
     <div>
-        <h2>Search Project by</h2>
+        <h2> <b>Search Project By</b></h2>
         <form>
-            <label for="project-title">Project Title: </label><br>
-            <input type="text" name="title" id="title"><br><br>
-            <label for="project-abstract">Project Abstract: </label><br>
-            <input type="text" name="abstract" id="abstract"><br><br>
-            <label for="authors">Authors: </label><br>
-            <input type="text" name="authors" id="authors"><br><br>
-            <label for="tags">Tag(s): </label><br>
-            <input type="text" name="tags" id="tags"><br><br>
+            <label for="searchTerm">Project Name, Authors, Abstract, Tags </label><br>
+            <input type="text" name="searchTerm" id="search"><br><br>
+            <select name="authorName" id="name">
+                <option value="ade_bolade" selected>Ade Bolade</option>
+                <option value="brian_teleo">Brian Teleo</option>
+                <option value="james_correy">James Correy</option>
+            </select><br><br>
             <input type="submit" value="Search">
         </form>
         <h2>Search Result</h2>

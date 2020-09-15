@@ -12,7 +12,8 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="#">Projects</a>
+        <a href="search.html">Projects</a>
+        <a href="createProject.html">Submit</a>
         <a href="login.html">Login</a>
         <a href="register.html">Register</a>
     </nav>
@@ -26,13 +27,13 @@
         <h2>Edit Project</h2>
         <form>
             <label for="project-name">Project Name: </label><br>
-            <input type="text" name="project-name" id="project-name"><br><br>
+            <input type="text" name="name" id="project-name" value="Project 4"><br><br>
             <label for="project-abstract">Project Abstract: </label><br>
-            <textarea name="project-abstract" id="project-abstract" cols="30" rows="3"></textarea><br><br>
+            <textarea name="abstract" id="project-abstract" cols="30" rows="3">Lorem, ipsum dolor sit amet,</textarea><br><br>
             <label for="authors">Authors: </label><br>
-            <input type="text" name="authors" id="authors"><br><br>
+            <input type="text" name="authors" id="authors" value="Ade Ade, Brian James"><br><br>
             <label for="tags">Tag(s): </label><br>
-            <input type="text" name="tags" id="tags"><br><br>
+            <input type="text" name="tags" id="tags" value="#yaml, #ejs"><br><br>
             <label for="file">Add Project File: </label><br>
             <input type="file" name="project" id="project"><br><br>
             <input type="submit" value="Submit">

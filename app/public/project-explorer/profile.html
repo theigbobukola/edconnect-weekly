@@ -12,7 +12,8 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="#">Projects</a>
+        <a href="search.html">Projects</a>
+        <a href="createProject.html">Submit</a>
         <a href="login.html">Login</a>
         <a href="register.html">Register</a>
     </nav>
@@ -27,38 +28,36 @@
         <h2>Update Profile</h2>
         <form>
             <label for="fname">First Name: </label><br>
-            <input type="text" name="fname" id="fname"><br><br>
+            <input type="text" name="firstName" id="fname"><br><br>
             <label for="lname">Last Name: </label><br>
-            <input type="text" name="lname" id="lname"><br><br>
+            <input type="text" name="lastName" id="lname"><br><br>
             <label for="email">Email Address: </label><br>
             <input type="email" name="email" id="email"><br><br>
             <label for="matric">Matric Number: </label><br>
-            <input type="text" name="matric" id="matric"><br><br>
+            <input type="text" name="matricNumber" id="matric"><br><br>
             <label for="program">Program: </label><br>
             <select name="program" id="program">
-                <option value="cs">Computer Science</option>
-                <option value="cis">Computer Information Systems</option>
-                <option value="ct">Computer Technology</option>
+                <option value="computer_science">Computer Science</option>
+                <option value="computer_information_system">Computer Information Systems</option>
+                <option value="computer_technology">Computer Technology</option>
             </select><br><br>
             <label for="year">Graduation Year: </label><br>
-            <select name="year" id="year">
-                <option value="2015">2015</option>
+            <select name="graduationYear" id="year">
                 <option value="2016">2016</option>
                 <option value="2017">2017</option>
                 <option value="2018">2018</option>
                 <option value="2019" selected>2019</option>
                 <option value="2020">2020</option>
-                <option value="2021">2021</option>
             </select><br><br>
             <input type="submit" value="Submit">
         </form>
         <h2>Change Password</h2>
         <label for="password">Current Password: </label><br>
-        <input type="password" name="password" id="password"><br><br>
+        <input type="password" name="currentPassword" id="password"><br><br>
         <label for="new-password">New Password: </label><br>
-        <input type="password" name="new-password" id="new-password"><br><br>
+        <input type="password" name="newPassword" id="new-password"><br><br>
         <label for="new-password-2">Confirm Password: </label><br>
-        <input type="password" name="new-password-2" id="new-password-2"><br><br>
+        <input type="password" name="confirmPassword" id="new-password-2"><br><br>
         <input type="submit" value="Submit">
     </div>
 </body>
